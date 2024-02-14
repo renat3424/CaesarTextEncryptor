@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Caesar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/source.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-vlOMx0hKjUCl4WzuhIhSNZSm2yQCaf0mOU1hEDK/iztH3gU4v5NMmJln9273A6Jz" crossorigin="anonymous">
+</head>
+
+
+
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Caesar</h1>
+		</header>
+        <div class="main">
+        	
+        	<section class="editor">
+        	 <nav>
+        	 	<ul>
+
+        	 		<button type="button" class="far fa-folder-open" id="o"></button>
+        	 		<button type="button" class="far fa-copy" id="copy"></button>
+        	 		
+        	 		
+        	 		<button type="button" class="fas fa-ballot-check" id="selectAll"></button>
+        	 		<button type="button" class="fas fa-trash" id="del"></button>
+        	 		<button type="button" class="fas fa-bold"  id="bold"></button>
+        	 		<button type="button" class="fas fa-italic" id="italic"></button>
+        	 		<button type="button" class="fas fa-underline" id="underline"></button>
+        	 		<button type="button" class="fas fa-align-left" id="justifyLeft"></button>
+        	 		<button type="button" class="fas fa-align-center" id="justifyCenter"></button>
+              
+
+                       <input type="checkbox" id="menubt">
+                  <label for="menubt" class="fas fa-bars" id="bars"></label>
+
+        	 	</ul>
+                 
+        	 </nav>
+        	 <div id="wrapped"><div id="output" contenteditable="true"></div></div>
+            </section>
+            
+
+
+
+            <aside>
+
+
+               <ul class="sidebar">
+                
+                <li><button class="button" id="open">open</button></li>
+                <li><button class="button" id="encrypt">encrypt</button></li>
+                <li><button class="button" id="decrypt">decrypt</button></li>
+                <li><button class="button" id="delete">delete</button></li>
+                
+               </ul>
+            	    
+
+            	    <div class="encoding">
+   	<div class="radiobuttons">
+   	 <input type="radio" id="russian" name ="language" class="language">
+     <label for="russian" class="labels">russian</label>
+     <input type="radio" id="english" name ="language" class="language">
+     <label for="english" class="labels">english</label>
+ </div>
+     <p>enter shift:</p>
+     <input type="number" id="shiftfield">
+     <div ><button id="back" class="cntbuttons">back</button><button id="saveqs" class="cntbuttons">ok</button></div>
+
+   </div>
+
+
+          <div class="saveform">
+          	
+               <p>Name:</p>
+               <input type="text" id="key">
+               <div ><button  id="saver" >ok</button></div>
+          
+          </div>
+
+
+                         <ul class="keys">
+                
+                
+                <li><button class="backkey">Back</button></li>
+                
+               </ul>
+
+                  <ul class="deleting">
+                
+                
+                <li><button class="backdel">Back</button></li>
+                
+               </ul>
+
+                <div class="decrypting">
+     <p>enter shift:</p>
+     <input type="number" id="fieldshift">
+     <div ><button id="backdecr" class="cntbuttons">back</button><button id="okdecr" class="cntbuttons">ok</button></div>
+
+   </div>
+
+            </aside>
+        </div>
+
+        <footer>Copyright &copy; 2020 Caesar</footer>
+           
+	</div>
+
+<script type="text/javascript"  src="js/main.js"></script>
+
+</body>
+
+
+
+
+</html>
